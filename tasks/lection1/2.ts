@@ -27,7 +27,7 @@ export const howOldWillBeActorAfterTwentyYears = (actor) => {
     return actor.age + 20;
 }
 
-//! Вы увидите результат вызова скрипта, когад запустите тесты. 
+//! Вы увидите результат вызова скрипта, когда запустите тесты. 
 //! Не меняйте название функции, содержимое в вашем распоряжении
 export function demo(): void {
     console.log(howOldWillBeActorAfterTwentyYears(actor))

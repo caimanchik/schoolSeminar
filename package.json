@@ -6,13 +6,22 @@
   "scripts": {
     "start": "ts-node-dev --respawn ./src/index.ts",
     "sandbox": "ts-node-dev --respawn ./sandbox/index.ts",
+    
     "sandboxBrowser": "concurrently --kill-others \"npm run sandboxWatch\" \"live-server sandbox --ignore='index.ts'\"",
     "sandboxWatch": "nodemon --watch 'sandbox/index.ts' --exec 'tsc ./sandbox/index.ts'",
+    
     "1.1": "ts-node-dev --respawn ./tests/lection1/test1.ts",
     "1.2": "ts-node-dev --respawn ./tests/lection1/test2.ts",
     "1.5": "ts-node-dev --respawn ./tests/lection1/test5.ts",
     "1.6": "ts-node-dev --respawn ./tests/lection1/test6.ts",
-    "1.7": "ts-node-dev --respawn ./tests/lection1/test7.ts"
+    "1.7": "ts-node-dev --respawn ./tests/lection1/test7.ts",
+    
+    "2.1": "ts-node-dev --respawn ./tests/lection2/test1.ts",
+    "2.3": "ts-node-dev --respawn ./tests/lection2/test3.ts",
+    "2.4": "ts-node-dev --respawn ./tests/lection2/test4.ts",
+    "2.5": "ts-node-dev --respawn ./tests/lection2/test5.ts",
+    "2.6": "ts-node-dev --respawn ./tasks/lection2/6.ts",
+    "2.7": "ts-node-dev --respawn ./tasks/lection2/7.ts"
   },
   "author": "",
   "license": "ISC",
