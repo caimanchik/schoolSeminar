@@ -21,7 +21,12 @@
     "2.4": "ts-node-dev --respawn ./tests/lection2/test4.ts",
     "2.5": "ts-node-dev --respawn ./tests/lection2/test5.ts",
     "2.6": "ts-node-dev --respawn ./tasks/lection2/6.ts",
-    "2.7": "ts-node-dev --respawn ./tasks/lection2/7.ts"
+    "2.7": "ts-node-dev --respawn ./tasks/lection2/7.ts",
+    
+    "3.1": "ts-node-dev --respawn ./tests/lection3/test1.ts",
+    "3.2": "ts-node-dev --respawn ./tests/lection3/test2.ts",
+    "3.3": "ts-node-dev --respawn ./tasks/lection3/3.ts",
+    "3.4": "ts-node-dev --respawn ./tests/lection3/test4.ts"
   },
   "author": "",
   "license": "ISC",
